@@ -4,3 +4,5 @@ log_format main '$remote_addr-[$time_local] "$request"'
                 
                 
 url screencast : https://www.youtube.com/watch?v=yITYbOxuKLs
+
+python uwsgi params for mutex : uwsgi options: --thunder-lock
