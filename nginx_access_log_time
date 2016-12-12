@@ -1,3 +1,6 @@
 log_format main '$remote_addr-[$time_local] "$request"' 
                 '$status $bytes_sent $request_lenght' 
                 '$request_time $upstream_response_time'
+                
+                
+url screencast : https://www.youtube.com/watch?v=yITYbOxuKLs
